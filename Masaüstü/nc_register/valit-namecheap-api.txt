@@ -1,0 +1,1 @@
+https://api.sandbox.namecheap.com/xml.response?ApiUser=sitelerwebtr&ApiKey=7e6d70ab547c4ac9bc612dd37341434b&UserName=sitelerwebtr&ClientIp=46.196.142.145&Command=namecheap.domains.check&DomainList=domain1.com,domain2.com

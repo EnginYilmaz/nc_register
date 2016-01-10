@@ -1,0 +1,40 @@
+nc_register.form:
+  path: '/nc_register-form'
+  defaults:
+    _title: 'Your Namecheap API Key'
+    _form: '\Drupal\nc_register\Form\Nc_registerForm'
+  requirements:
+    _permission: 'access content'
+
+nc_register.personelinfo:
+  path: '/nc_register-personelinfo'
+  defaults:
+    _title: 'Your Namecheap Personel Information'
+    _form: '\Drupal\nc_register\Form\Nc_registerPersonelinfo'
+  requirements:
+    _permission: 'access content'
+
+nc_register.nameserver:
+  path: '/nc_register-nameserver'
+  defaults:
+    _title: 'Name Server Settings'
+    _form: '\Drupal\nc_register\Form\Nc_registerNameserver'
+  requirements:
+    _permission: 'access content'
+    
+nc_register.domain:
+  path: '/nc_register-domain'
+  defaults:
+    _title: 'Register Domain'
+    _form: '\Drupal\nc_register\Form\Nc_registerDomain'
+  requirements:
+    _permission: 'access content'
+
+nc_register.content:
+  path: '/nc_register'
+  defaults:
+    _controller: '\Drupal\nc_register\Controller\nc_registerController::content'
+    _title: 'Register a domain today'
+  requirements:
+    _permission: 'access content'
+

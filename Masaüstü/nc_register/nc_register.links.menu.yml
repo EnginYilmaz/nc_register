@@ -1,0 +1,6 @@
+merhaba.admin:
+  title: 'Namecheap API Domain register module'
+  description: 'You will be able to register domains with your Drupal 8 soon'
+  parent: system.admin_config_development
+  route_name: nc_register.content
+  weight: 100

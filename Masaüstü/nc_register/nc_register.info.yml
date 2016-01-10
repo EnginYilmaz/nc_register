@@ -1,0 +1,7 @@
+name: Namecheap Register
+description: Namecheap API domain register module for Drupal 8
+package: Custom
+#configure: merhaba.merhaba.form
+
+type: module
+core: 8.x
